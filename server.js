@@ -2,10 +2,10 @@ const express = require("express")
 const app = express()
 var NarutoM = [["Itachi", "Uchiha"]];
 
-app.get("/", (req, res) => {
-  res.send(`Hii! ${NarutoM}`)
-})
 
+app.get("/", (req, res) => {
+  res.send(`helloo! ${NarutoM}`)
+})
 app.get("/users", (req, res) => {
   res.send("Users Page")
 })
